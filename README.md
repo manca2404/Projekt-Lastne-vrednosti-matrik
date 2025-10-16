@@ -1,2 +1,2 @@
-# Projekt-Lastne-vrednosti-matrik
+# Projekt-Lastne vrednosti matrik
 Lastne vrednosti matrik
