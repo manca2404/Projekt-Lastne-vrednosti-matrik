@@ -1,0 +1,165 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[slovene]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{amsmath,amssymb}
+\usepackage{float}
+\usepackage[hidelinks]{hyperref}
+
+\title{Circulantne matrike}
+\author{Amanda Babnik, Manca Kavčič \\ Fakulteta za matematiko in fiziko}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Kratek povzetek poročila (cilji, metode, glavni rezultati). Naj bo 3–6 stavkov.
+\end{abstract}
+
+\section{Cirkulantne matrike}
+
+\subsection{Definicija}
+Cirkulantna matrika je posebna vrsta kvadratne matrike, pri kateri je vsaka vrstica dobljena s
+\textbf{cikličnim premikom} elementov prejšnje vrstice za eno mesto v desno.
+Podrobne definicije in izpeljave lastnosti so opisane v \cite{DavisCirculant1994, Gray2006Toeplitz, Pillai2020Circulant}.
+
+Če je prva vrstica matrike
+\[
+(c_0, c_1, c_2, \ldots, c_{n-1}),
+\]
+potem ima splošna $n \times n$ cirkulantna matrika obliko:
+\[
+C =
+\begin{pmatrix}
+c_0 & c_1 & c_2 & \cdots & c_{n-1} \\
+c_{n-1} & c_0 & c_1 & \cdots & c_{n-2} \\
+c_{n-2} & c_{n-1} & c_0 & \cdots & c_{n-3} \\
+\vdots & \ddots & \ddots & \ddots & \vdots \\
+c_1 & c_2 & c_3 & \cdots & c_0
+\end{pmatrix}.
+\]
+Vsaka cirkulantna matrika je torej popolnoma določena s svojo prvo vrstico.
+
+\subsection{Lastnosti cirkulantnih matrik}
+
+\begin{itemize}
+    \item Cirkulantne matrike tvorijo podprostor prostora vseh $n \times n$ matrik \cite{Gray2006Toeplitz}.
+    \item Produkt, vsota in potenca cirkulantnih matrik so spet cirkulantne matrike.
+    \item Vse cirkulantne matrike imajo iste lastne vektorje; razlikujejo se le po lastnih vrednostih \cite{DavisCirculant1994}.
+\end{itemize}
+
+\subsection{Lastni vektorji in lastne vrednosti}
+
+Ena najpomembnejših lastnosti cirkulantnih matrik je, da so njihove lastne vrednosti in vektorji
+tesno povezani z diskretno Fourierjevo transformacijo (DFT), kar poudarjata \cite{Pillai2020Circulant, Kumar2019ComputationPerspective}.
+
+Naj bo $\omega_n = e^{\frac{2\pi i}{n}}$ primitivna $n$-ta korenina enote.
+
+Za $k = 0, 1, \ldots, n-1$ definiramo lastne vektorje:
+\[
+x^{(k)} =
+\begin{pmatrix}
+1 \\ \omega_n^k \\ \omega_n^{2k} \\ \vdots \\ \omega_n^{(n-1)k}
+\end{pmatrix}.
+\]
+Lastne vrednosti $\lambda_k$ dobimo kot diskretno Fourierjevo transformacijo prve vrstice matrike:
+\[
+\lambda_k = \sum_{j=0}^{n-1} c_j \, \omega_n^{jk}, \qquad k = 0, 1, \ldots, n-1.
+\]
+S tem lahko vsako cirkulantno matriko zapišemo v diagonalni obliki:
+\[
+C = F^{-1} \Lambda F,
+\]
+kjer je $F$ Fourierjeva matrika z elementi
+\[
+F_{jk} = \omega_n^{jk}, \quad 0 \leq j,k \leq n-1,
+\]
+in $\Lambda = \text{diag}(\lambda_0, \lambda_1, \ldots, \lambda_{n-1})$.
+
+Fourierjeva matrika $F$ je unitarna:
+\[
+F^{-1} = \frac{1}{n} F^H,
+\]
+kar pomeni, da imajo cirkulantne matrike \textbf{ortogonalne lastne vektorje} \cite{Gray2006Toeplitz, Hariprasad2024CirculantDecomposition}.
+
+\subsection{Povezava s Fourierjevo transformacijo}
+
+Iz zgornjih rezultatov sledi, da je množenje vektorja $x$ s cirkulantno matriko $C$ ekvivalentno
+\textbf{konvoluciji} med prvim stolpcem matrike in vektorjem $x$:
+\[
+Cx = c * x,
+\]
+kar pomeni, da se lahko takšne operacije izvedejo učinkovito z uporabo
+\textbf{hitre Fourierjeve transformacije (FFT)} v času $O(n \log n)$ \cite{Hariprasad2024CirculantDecomposition}.
+
+\subsection{Opomba}
+Če so elementi prve vrstice $c_j$ realni, potem se lastne vrednosti pojavijo v konjugiranih parih,
+torej $\lambda_k = \overline{\lambda_{n-k}}$.
+Realni in imaginarni deli lastnih vektorjev ustrezajo diskretni kosinusni in sinusni transformaciji (DCT, DST)
+\cite{Pillai2020Circulant, Kumar2019ComputationPerspective}.
+
+\subsection{Primer}
+Oglejmo si cirkulantno matriko reda $4$ z prvo vrstico
+\[
+(c_0, c_1, c_2, c_3) = (2, -1, 0, -1).
+\]
+Dobimo:
+\[
+C =
+\begin{pmatrix}
+2 & -1 & 0 & -1 \\
+-1 & 2 & -1 & 0 \\
+0 & -1 & 2 & -1 \\
+-1 & 0 & -1 & 2
+\end{pmatrix}.
+\]
+Za $n=4$ velja $\omega_4 = e^{\frac{2\pi i}{4}} = i$.
+Lastne vrednosti so:
+\[
+\begin{aligned}
+\lambda_0 &= 2 + (-1) + 0 + (-1) = 0, \\
+\lambda_1 &= 2 - i(1) + 0 + i(1) = 2, \\
+\lambda_2 &= 2 - (-1) + 0 - (-1) = 4, \\
+\lambda_3 &= 2 + i(1) + 0 - i(1) = 2.
+\end{aligned}
+\]
+Torej so lastne vrednosti matrike $C$:
+\[
+\lambda = (0, 2, 4, 2).
+\]
+Pripadajoči lastni vektorji so stolpci Fourierjeve matrike:
+\[
+F =
+\begin{pmatrix}
+1 & 1 & 1 & 1 \\
+1 & i & -1 & -i \\
+1 & -1 & 1 & -1 \\
+1 & -i & -1 & i
+\end{pmatrix}.
+\]
+Zato velja:
+\[
+C = F^{-1}
+\begin{pmatrix}
+0 & 0 & 0 & 0 \\
+0 & 2 & 0 & 0 \\
+0 & 0 & 4 & 0 \\
+0 & 0 & 0 & 2
+\end{pmatrix} F.
+\]
+S tem je matrika diagonalizirana, kar potrjuje, da imajo vse cirkulantne matrike enake lastne vektorje (Fourierjevo bazo),
+njihove lastne vrednosti pa ustrezajo diskretni Fourierjevi transformaciji prve vrstice \cite{Gray2006Toeplitz, Hariprasad2024CirculantDecomposition}.
+\vspace{1em}
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
