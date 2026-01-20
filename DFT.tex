@@ -1,0 +1,160 @@
+\documentclass[hyperref={unicode}]{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[slovene]{babel}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\definecolor{slateblue}{RGB}{106,90,205}
+
+\usetheme{AnnArbor}
+\usecolortheme{seahorse}
+\useinnertheme{rounded}
+\useoutertheme{infolines}
+\usepackage{palatino}
+\usefonttheme{serif}
+
+
+\title{Diskretne Fourierova transformacija (DFT)}
+\subtitle{Projektna naloga}
+\author{Amanda Babič, Manca Kavčič}
+\institute[FMF]{Fakulteta za matematiko in fiziko}
+\date{\today}
+
+\begin{document}
+
+    \begin{frame}
+        \begin{titlepage}
+      
+        \end{titlepage}
+    \end{frame}
+
+    \begin{frame}
+        \centering
+        \includegraphics[width=1\textwidth]{3Hz.png}
+    \end{frame}
+
+    \begin{frame}
+        \centering
+        \includegraphics[width=0.7\textwidth]{masa3.png}
+    \end{frame}
+
+    \begin{frame}
+        \centering
+        \includegraphics[width=1\textwidth]{cista3.png}
+    \end{frame}
+
+    \begin{frame}
+        \centering
+        \includegraphics[width=1\textwidth]{2Hz+3Hz.png}
+    \end{frame}
+
+    \begin{frame}
+        \centering
+        \includegraphics[width=0.7\textwidth]{krogi2in3.png}
+    \end{frame}
+
+    \begin{frame}
+        \centering
+        \includegraphics[width=1\textwidth]{cista2in3.png}  
+    \end{frame}
+
+    \begin{frame}
+
+\begin{columns}[T]
+
+% LEVI STOLPEC
+    \begin{column}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{3Hz.png}
+    \vspace{0.5em}
+    \includegraphics[width=\linewidth]{2Hz.png}
+    \vspace{0.5em}
+    \includegraphics[width=\linewidth]{2Hz+3Hz.png}
+    \end{column}
+
+% SREDINA – PUŠČICE
+    \begin{column}{0.1\textwidth}
+    \centering
+    \vspace{2em}
+    $\longrightarrow$\\
+    \textbf{DFT}
+
+    \vspace{3em}
+    $\longrightarrow$\\
+    \textbf{DFT}
+
+    \vspace{3em}
+    $\longrightarrow$\\
+    \textbf{DFT}
+    \end{column}
+
+% DESNI STOLPEC
+    \begin{column}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{cista3.png}
+    \vspace{0.5em}
+    \includegraphics[width=\linewidth]{cista2.png}
+    \vspace{0.5em}
+    \includegraphics[width=\linewidth]{cista2in3.png}
+    \end{column}
+
+    \end{columns}
+
+\end{frame}
+
+    \begin{frame}
+        \centering
+        \includegraphics[width=1\textwidth]{40tock.png}
+        \includegraphics[width = 0.4\textwidth]{40rozica.png}
+    \end{frame}
+
+    \begin{frame}
+
+% ZGORNJA SLIKA – čez celo širino
+\centering
+\includegraphics[width=1\textwidth]{500tock.png}
+
+
+% SPODAJ: LEVO SLIKA, DESNO FORMULA
+\begin{columns}[T]
+
+% SPODAJ LEVO – SLIKA
+\begin{column}{0.5\textwidth}
+  \centering
+  \includegraphics[width=0.8\linewidth]{500rozica.png}
+\end{column}
+
+% SPODAJ DESNO – DFT + IDFT OKVIR
+\begin{column}{0.4\textwidth}
+  \centering
+  \setlength{\fboxsep}{0.6em}
+  \setlength{\fboxrule}{1.5pt}
+  \fcolorbox{slateblue}{white}{
+    \parbox{0.9\linewidth}{
+      \centering
+      {\small
+      \textbf{DFT:}\vspace{-0.4em}
+      \[
+      X_k = \sum_{n=0}^{N-1} x_n \cdot e^{-2\pi i \frac{k}{N} n}
+      \]
+
+      \vspace{-0.2em}
+      \textbf{IDFT:}\vspace{-0.4em}
+      \[
+      x_n = \frac{1}{N} \sum_{k=0}^{N-1} X_k \cdot e^{2\pi i \frac{k}{N} n}
+      \]
+
+      \vspace{0.2em}
+      $k,n = 0, 1, \dots, N-1$
+      }
+    }
+  }
+\end{column}
+
+
+\end{columns}
+
+\end{frame}
+
+\end{document}
