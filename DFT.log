@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.6)  19 JAN 2026 23:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.6)  20 JAN 2026 08:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -705,164 +705,196 @@ Dictionary: translator-theorem-dictionary, Language: English
 ) (DFT.nav) [1
 
 {C:/Users/manca/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<3Hz.png, id=55, 738.5994pt x 288.3573pt>
-File: 3Hz.png Graphic file (type png)
-<use 3Hz.png>
-Package pdftex.def Info: 3Hz.png  used on input line 35.
-(pdftex.def)             Requested size: 342.43532pt x 133.68875pt.
+<A4.png, id=55, 625.8582pt x 284.0211pt>
+File: A4.png Graphic file (type png)
+<use A4.png>
+Package pdftex.def Info: A4.png  used on input line 35.
+(pdftex.def)             Requested size: 342.43532pt x 155.40166pt.
  [2
 
- <./3Hz.png>]
-<masa3.png, id=84, 891.8118pt x 1193.9004pt>
-File: masa3.png Graphic file (type png)
-<use masa3.png>
-Package pdftex.def Info: masa3.png  used on input line 40.
-(pdftex.def)             Requested size: 239.70367pt x 320.90002pt.
+ <./A4.png>]
+<D4.png, id=84, 625.8582pt x 284.0211pt>
+File: D4.png Graphic file (type png)
+<use D4.png>
+Package pdftex.def Info: D4.png  used on input line 39.
+(pdftex.def)             Requested size: 342.43532pt x 155.40166pt.
+ [3
 
-Overfull \vbox (73.57672pt too high) detected at line 40
- []
-
-[3
-
- <./masa3.png>]
-<cista3.png, id=112, 720.5319pt x 271.0125pt>
-File: cista3.png Graphic file (type png)
-<use cista3.png>
-Package pdftex.def Info: cista3.png  used on input line 45.
-(pdftex.def)             Requested size: 342.43532pt x 128.80257pt.
+ <./D4.png>]
+<A4D4.png, id=112, 625.8582pt x 284.0211pt>
+File: A4D4.png Graphic file (type png)
+<use A4D4.png>
+Package pdftex.def Info: A4D4.png  used on input line 43.
+(pdftex.def)             Requested size: 342.43532pt x 155.40166pt.
  [4
 
- <./cista3.png>]
-<2Hz+3Hz.png, id=140, 732.0951pt x 288.3573pt>
-File: 2Hz+3Hz.png Graphic file (type png)
-<use 2Hz+3Hz.png>
-Package pdftex.def Info: 2Hz+3Hz.png  used on input line 50.
-(pdftex.def)             Requested size: 342.43532pt x 134.88115pt.
+ <./A4D4.png>]
+<vsota.png, id=140, 714.7503pt x 570.2103pt>
+File: vsota.png Graphic file (type png)
+<use vsota.png>
+Package pdftex.def Info: vsota.png  used on input line 47.
+(pdftex.def)             Requested size: 308.18968pt x 245.873pt.
  [5
 
- <./2Hz+3Hz.png>]
-<krogi2in3.png, id=168, 891.8118pt x 1193.9004pt>
-File: krogi2in3.png Graphic file (type png)
-<use krogi2in3.png>
-Package pdftex.def Info: krogi2in3.png  used on input line 55.
+ <./vsota.png>]
+<3Hz.png, id=168, 738.5994pt x 288.3573pt>
+File: 3Hz.png Graphic file (type png)
+<use 3Hz.png>
+Package pdftex.def Info: 3Hz.png  used on input line 52.
+(pdftex.def)             Requested size: 342.43532pt x 133.68875pt.
+ [6
+
+ <./3Hz.png>]
+<masa3.png, id=196, 891.8118pt x 1193.9004pt>
+File: masa3.png Graphic file (type png)
+<use masa3.png>
+Package pdftex.def Info: masa3.png  used on input line 57.
 (pdftex.def)             Requested size: 239.70367pt x 320.90002pt.
 
-Overfull \vbox (73.57672pt too high) detected at line 55
+Overfull \vbox (73.57672pt too high) detected at line 57
  []
 
-[6
+[7
+
+ <./masa3.png>]
+<cista3.png, id=225, 720.5319pt x 271.0125pt>
+File: cista3.png Graphic file (type png)
+<use cista3.png>
+Package pdftex.def Info: cista3.png  used on input line 62.
+(pdftex.def)             Requested size: 342.43532pt x 128.80257pt.
+ [8
+
+ <./cista3.png>]
+<2Hz+3Hz.png, id=253, 732.0951pt x 288.3573pt>
+File: 2Hz+3Hz.png Graphic file (type png)
+<use 2Hz+3Hz.png>
+Package pdftex.def Info: 2Hz+3Hz.png  used on input line 67.
+(pdftex.def)             Requested size: 342.43532pt x 134.88115pt.
+ [9
+
+ <./2Hz+3Hz.png>]
+<krogi2in3.png, id=281, 891.8118pt x 1193.9004pt>
+File: krogi2in3.png Graphic file (type png)
+<use krogi2in3.png>
+Package pdftex.def Info: krogi2in3.png  used on input line 72.
+(pdftex.def)             Requested size: 239.70367pt x 320.90002pt.
+
+Overfull \vbox (73.57672pt too high) detected at line 72
+ []
+
+[10
 
  <./krogi2in3.png>]
-<cista2in3.png, id=196, 720.5319pt x 271.0125pt>
+<cista2in3.png, id=309, 720.5319pt x 271.0125pt>
 File: cista2in3.png Graphic file (type png)
 <use cista2in3.png>
-Package pdftex.def Info: cista2in3.png  used on input line 60.
+Package pdftex.def Info: cista2in3.png  used on input line 77.
 (pdftex.def)             Requested size: 342.43532pt x 128.80257pt.
- [7
+ [11
 
  <./cista2in3.png>]
 File: 3Hz.png Graphic file (type png)
 <use 3Hz.png>
-Package pdftex.def Info: 3Hz.png  used on input line 104.
+Package pdftex.def Info: 3Hz.png  used on input line 121.
 (pdftex.def)             Requested size: 154.09483pt x 60.15642pt.
-<2Hz.png, id=225, 738.5994pt x 288.3573pt>
+<2Hz.png, id=337, 738.5994pt x 288.3573pt>
 File: 2Hz.png Graphic file (type png)
 <use 2Hz.png>
-Package pdftex.def Info: 2Hz.png  used on input line 104.
+Package pdftex.def Info: 2Hz.png  used on input line 121.
 (pdftex.def)             Requested size: 154.09483pt x 60.15642pt.
 File: 2Hz+3Hz.png Graphic file (type png)
 <use 2Hz+3Hz.png>
-Package pdftex.def Info: 2Hz+3Hz.png  used on input line 104.
+Package pdftex.def Info: 2Hz+3Hz.png  used on input line 121.
 (pdftex.def)             Requested size: 154.09483pt x 60.6932pt.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 104.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 121.
  (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 104.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 121.
  (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 104.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 121.
  (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 104.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 121.
  (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 104.
+(Font)              <10.95> on input line 121.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 104.
+(Font)              <8> on input line 121.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 104.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 104.
+(Font)              <6> on input line 121.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 121.
  (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 104.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 121.
  (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 File: cista3.png Graphic file (type png)
 <use cista3.png>
-Package pdftex.def Info: cista3.png  used on input line 104.
+Package pdftex.def Info: cista3.png  used on input line 121.
 (pdftex.def)             Requested size: 154.09483pt x 57.96053pt.
-<cista2.png, id=226, 720.5319pt x 271.0125pt>
+<cista2.png, id=338, 720.5319pt x 271.0125pt>
 File: cista2.png Graphic file (type png)
 <use cista2.png>
-Package pdftex.def Info: cista2.png  used on input line 104.
+Package pdftex.def Info: cista2.png  used on input line 121.
 (pdftex.def)             Requested size: 154.09483pt x 57.96053pt.
 File: cista2in3.png Graphic file (type png)
 <use cista2in3.png>
-Package pdftex.def Info: cista2in3.png  used on input line 104.
+Package pdftex.def Info: cista2in3.png  used on input line 121.
 (pdftex.def)             Requested size: 154.09483pt x 57.96053pt.
- [8
+ [12
 
  <./2Hz.png> <./cista2.png>]
-<40tock.png, id=257, 855.6768pt x 277.5168pt>
+<40tock.png, id=369, 855.6768pt x 277.5168pt>
 File: 40tock.png Graphic file (type png)
 <use 40tock.png>
-Package pdftex.def Info: 40tock.png  used on input line 110.
+Package pdftex.def Info: 40tock.png  used on input line 127.
 (pdftex.def)             Requested size: 342.43532pt x 111.0598pt.
-<40rozica.png, id=258, 422.7795pt x 419.8887pt>
+<40rozica.png, id=370, 422.7795pt x 419.8887pt>
 File: 40rozica.png Graphic file (type png)
 <use 40rozica.png>
-Package pdftex.def Info: 40rozica.png  used on input line 110.
+Package pdftex.def Info: 40rozica.png  used on input line 127.
 (pdftex.def)             Requested size: 136.97203pt x 136.03935pt.
 
-Overfull \vbox (0.77585pt too high) detected at line 110
+Overfull \vbox (0.77585pt too high) detected at line 127
  []
 
-[9
+[13
 
  <./40tock.png> <./40rozica.png>]
-<500tock.png, id=286, 855.6768pt x 277.5168pt>
+<500tock.png, id=399, 855.6768pt x 277.5168pt>
 File: 500tock.png Graphic file (type png)
 <use 500tock.png>
-Package pdftex.def Info: 500tock.png  used on input line 158.
+Package pdftex.def Info: 500tock.png  used on input line 175.
 (pdftex.def)             Requested size: 342.43532pt x 111.0598pt.
-<500rozica.png, id=287, 422.7795pt x 419.8887pt>
+<500rozica.png, id=400, 422.7795pt x 419.8887pt>
 File: 500rozica.png Graphic file (type png)
 <use 500rozica.png>
-Package pdftex.def Info: 500rozica.png  used on input line 158.
+Package pdftex.def Info: 500rozica.png  used on input line 175.
 (pdftex.def)             Requested size: 136.97464pt x 136.03935pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 158.
+(Font)              <10> on input line 175.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 158.
+(Font)              <7> on input line 175.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 158.
+(Font)              <5> on input line 175.
 
-Overfull \hbox (7.91704pt too wide) in paragraph at lines 158--158
+Overfull \hbox (7.91704pt too wide) in paragraph at lines 175--175
  [][][][] 
  []
 
 
-Overfull \vbox (9.14218pt too high) detected at line 158
+Overfull \vbox (9.14218pt too high) detected at line 175
  []
 
-[10
+[14
 
  <./500tock.png> <./500rozica.png>]
 \tf@nav=\write6
@@ -879,17 +911,17 @@ Package rerunfilecheck Info: File `DFT.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23308 strings out of 478338
- 461701 string characters out of 2836700
+ 23352 strings out of 478338
+ 462168 string characters out of 2836700
  722820 words of memory out of 3000000
- 41175 multiletter control sequences out of 15000+600000
+ 41207 multiletter control sequences out of 15000+600000
  506108 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,552b,590s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on DFT.pdf (10 pages, 1248393 bytes).
+Output written on DFT.pdf (14 pages, 1540580 bytes).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 139 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 489 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 159 words of extra memory for PDF output out of 10000 (max. 10000000)
 

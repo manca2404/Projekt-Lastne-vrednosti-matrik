@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1768863055 "c:/Users/manca/OneDrive/Documents/Faks_FMF/MAG/1. letnik/Matematika z racunalnikom/Projekt-cirkulantne matrike/Projekt-Lastne-vrednosti-matrik/DFT.tex" "DFT.pdf" "DFT" 1768863060
+["pdflatex"] 1768894393 "c:/Users/manca/OneDrive/Documents/Faks_FMF/MAG/1. letnik/Matematika z racunalnikom/Projekt-cirkulantne matrike/Projekt-Lastne-vrednosti-matrik/DFT.tex" "DFT.pdf" "DFT" 1768894399
   "2Hz+3Hz.png" 1768859803 49349 4a5840d7f2036becd69eaee30c82820a ""
   "2Hz.png" 1768860870 51619 273e7c59df8abf9ffab2f6156d1a15bd ""
   "3Hz.png" 1768858503 57267 7ccfb23510a65366b6819a17f8298c3d ""
@@ -7,6 +7,8 @@
   "40tock.png" 1768862598 66964 419ec0586f9727357270764b3d083a10 ""
   "500rozica.png" 1768860504 73540 68362c69cf56e442ea1036e307a3d2aa ""
   "500tock.png" 1768862572 73740 b98d9d2aec313f5faa914d8cadf5e309 ""
+  "A4.png" 1768894233 54360 b00b4831c99207576e40517eb4a8a3a6 ""
+  "A4D4.png" 1768894254 85965 45e83afd64c2a50f0e133f0ac0b0aec2 ""
   "C:/Users/manca/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1765712537 83696 30863f05e67e29e7ec138f04cfc5afb2 ""
   "C:/Users/manca/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1665061550 10329961 b99f5382c9d353ba8d2bb20920165a33 ""
   "C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -235,16 +237,18 @@
   "C:/Users/manca/AppData/Local/Programs/MiKTeX/tex/latex/translator/translator.sty" 1622467910 8765 56d370785f0143111ff9898b5adfe08e ""
   "C:/Users/manca/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/manca/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656233290 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "DFT.aux" 1768863059 2214 8b6a1bd7f238254c0772f41c43b1eb77 "pdflatex"
-  "DFT.nav" 1768863059 1109 07396102f9d82bf25877ba7d82798efb "pdflatex"
+  "D4.png" 1768894244 47787 f31bb3cc1c099ff51650670193e86bc4 ""
+  "DFT.aux" 1768894399 2730 b28d59b6ccb73d826231f7f15261aae0 "pdflatex"
+  "DFT.nav" 1768894399 1481 4dff29d63ced408af8d13a7957e2a731 "pdflatex"
   "DFT.out" 0 -1 0 "pdflatex"
-  "DFT.tex" 1768863053 3467 7b812a9e012c6e9604075b875fd854c4 ""
-  "c:/Users/manca/OneDrive/Documents/Faks_FMF/MAG/1. letnik/Matematika z racunalnikom/Projekt-cirkulantne matrike/Projekt-Lastne-vrednosti-matrik/DFT.tex" 1768863053 3467 7b812a9e012c6e9604075b875fd854c4 ""
+  "DFT.tex" 1768894392 3900 d19a481ec198032de929f190b2d46da9 ""
+  "c:/Users/manca/OneDrive/Documents/Faks_FMF/MAG/1. letnik/Matematika z racunalnikom/Projekt-cirkulantne matrike/Projekt-Lastne-vrednosti-matrik/DFT.tex" 1768894392 3900 d19a481ec198032de929f190b2d46da9 ""
   "cista2.png" 1768861275 29217 68f5ebc69130a5051c77e61499a03eb1 ""
   "cista2in3.png" 1768859969 35892 48e0aef644542a150207afcf8df829bf ""
   "cista3.png" 1768859709 29203 0096b053d739c6d0b7ecc291e87cc43a ""
   "krogi2in3.png" 1768860739 469581 87caac994c7f444f4bb9921cf5bfd8c7 ""
   "masa3.png" 1768858526 468143 070d998e2ec1eec1b241b54b212f5c6e ""
+  "vsota.png" 1768894265 117603 3baa030da802b98924afe4255af44311 ""
   (generated)
   "DFT.aux"
   "DFT.log"
